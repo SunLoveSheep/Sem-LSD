@@ -75,6 +75,9 @@ python _analyze_semantic_line.py
 
 
 # Pretrained models
-arch: resnet_18  [Download model](https://drive.google.com/open?id=1lhgMzxQdYl3oSXqeZ9DfGnHMcqpZ8Wi4)
 
-arch: dla_34  [Download model](https://drive.google.com/open?id=1SDA2YSJLmtVyxC0MrRNH9UNg9hX9QfnD)
+We provide pretrained Sem-LSD models on KAIST_URBAN dataset.
+
+arch: resnet_18  [Download model](https://drive.google.com/open?id=1K28hDldaYGyjWF2D6QN5k9tJNIO0Ouh-)
+
+arch: dla_34  [Download model](https://drive.google.com/open?id=1q7Mxk8fyd9kmOikfZyR8HoAPXmumymmo)

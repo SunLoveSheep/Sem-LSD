@@ -33,7 +33,9 @@ Currently we have 5 KAIST_URBAN sequences sampled (1 selected from every other 5
 Splited train/val images and annotations in COCO format as well as .xml format can be found:
 
 KAIST URBAN:
-[Images & Labels](https://drive.google.com/open?id=1UvmjL7vs2xK4lUc5-0D2PemF7RrlCnx8)
+[Images](https://drive.google.com/open?id=1UvmjL7vs2xK4lUc5-0D2PemF7RrlCnx8) /
+[Labels](https://drive.google.com/open?id=1Fb2onGLnQJRbSfw_hs7hg5n71KCtFOme)
+ (Please USE annotations in the Labels link!!!)
 
 KITTI:
 [Images](https://drive.google.com/open?id=1zYiGV2qSSKRodTPEEc7tiUzEdxuMoas-) / 
