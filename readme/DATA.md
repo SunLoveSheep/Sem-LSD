@@ -33,13 +33,13 @@ Currently we have 5 KAIST_URBAN sequences sampled (1 selected from every other 5
 Splited train/val images and annotations in COCO format as well as .xml format can be found:
 
 KAIST URBAN:
-[Images](https://drive.google.com/open?id=1UvmjL7vs2xK4lUc5-0D2PemF7RrlCnx8) /
-[Labels](https://drive.google.com/open?id=1Fb2onGLnQJRbSfw_hs7hg5n71KCtFOme)
- (Please USE annotations in the Labels link!!!)
+[Labels](https://drive.google.com/file/d/1DviC3huFzjDh42jkwwMAkN7k-ZvEa4rG/view?usp=sharing)
+
+As for the images, please refer to the official website. We use the stereo_left images.
 
 KITTI:
-[Images](https://drive.google.com/open?id=1zYiGV2qSSKRodTPEEc7tiUzEdxuMoas-) / 
-[Labels](https://drive.google.com/open?id=1tOGuvXi5jzHaj8OKKIUIh6eMiOX6zfgE)
+[Images](https://drive.google.com/file/d/1O1QU46uNawF8zmVzWRXYLE3EESM4kkTK/view?usp=sharing) / 
+[Labels](https://drive.google.com/file/d/1ARfByYB5EHsLpI4ChV-x26VnMpK4WR7r/view?usp=sharing)
 
 ## To generate image gradient magnitudes
 
