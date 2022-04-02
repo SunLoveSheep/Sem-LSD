@@ -18,8 +18,8 @@ from .DCNv2.dcn_v2 import DCN
 from torchsummary import summary as tsummary
 
 import sys
-sys.path.append('/workspace/tangyang.sy/pytorch_CV')
-from general_utils.summary import summary
+# sys.path.append('/workspace/tangyang.sy/pytorch_CV')
+# from general_utils.summary import summary
 import time
 
 BN_MOMENTUM = 0.1

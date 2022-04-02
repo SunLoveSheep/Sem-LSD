@@ -20,8 +20,8 @@ import torch.utils.model_zoo as model_zoo
 
 from torchsummary import summary as tsummary
 import sys
-sys.path.append('/workspace/tangyang.sy/pytorch_CV')
-from general_utils.summary import summary
+# sys.path.append('/workspace/tangyang.sy/pytorch_CV')
+# from general_utils.summary import summary
 import time
 
 BN_MOMENTUM = 0.1
@@ -296,29 +296,29 @@ def get_pose_net(num_layers, heads, head_conv=256):
   return model
 
 
-if __name__ == '__main__':
-    net = get_pose_net(18, {'hm': 80, 'wh': 2, 'reg': 2}, 128)
-    print("----------------- Model summary -----------------")
-    summary(net)
-    print("-------------------------------------------------")
-    print("\n")
-
-    print("----------------- TorchSummary ------------------")
-    tsummary(net.cuda(), (3, 512, 512))
-    print("-------------------------------------------------")
-    print("\n")
-
-    print("----------------- Output testing -----------------")
-    net.cuda()
-    t = 0.
-    for i in range(10):
-        # x = torch.randn(1, 3, 300, 300).to('cuda')
-        x = torch.randn(1, 3, 512, 512).to('cuda')
-        t0 = time.time()
-        y = net(x)
-        t1 = time.time()
-        t += t1 - t0
-        print("Test iteration {}".format(i))
-    print("Avg time: {}".format(t / 10.))
-    # print(y[0])
-    print("--------------------------------------------------")
+# if __name__ == '__main__':
+#     net = get_pose_net(18, {'hm': 80, 'wh': 2, 'reg': 2}, 128)
+#     print("----------------- Model summary -----------------")
+#     summary(net)
+#     print("-------------------------------------------------")
+#     print("\n")
+#
+#     print("----------------- TorchSummary ------------------")
+#     tsummary(net.cuda(), (3, 512, 512))
+#     print("-------------------------------------------------")
+#     print("\n")
+#
+#     print("----------------- Output testing -----------------")
+#     net.cuda()
+#     t = 0.
+#     for i in range(10):
+#         # x = torch.randn(1, 3, 300, 300).to('cuda')
+#         x = torch.randn(1, 3, 512, 512).to('cuda')
+#         t0 = time.time()
+#         y = net(x)
+#         t1 = time.time()
+#         t += t1 - t0
+#         print("Test iteration {}".format(i))
+#     print("Avg time: {}".format(t / 10.))
+#     # print(y[0])
+#     print("--------------------------------------------------")

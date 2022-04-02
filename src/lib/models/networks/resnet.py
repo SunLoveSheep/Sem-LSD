@@ -19,8 +19,8 @@ import torch.nn as nn
 import torch.utils.model_zoo as model_zoo
 
 import sys
-sys.path.append('/workspace/tangyang.sy/pytorch_CV')
-from general_utils.summary import summary
+# sys.path.append('/workspace/tangyang.sy/pytorch_CV')
+# from general_utils.summary import summary
 
 BN_MOMENTUM = 0.1
 logger = logging.getLogger(__name__)
@@ -294,14 +294,14 @@ def get_pose_net(num_layers, heads, head_conv=256):
   return model
 
 
-if __name__ == '__main__':
-    net = get_pose_net(18, {'hm': 80, 'wh': 2, 'reg': 2}, 64)
-    print("----------------- Model summary -----------------")
-    summary(net)
-    print("-------------------------------------------------")
-    print("\n")
-    print("----------------- Output testing -----------------")
-    x = torch.randn(1, 3, 512, 512)
-    y = net(x)
-    print(y[0])
-    print("--------------------------------------------------")
+# if __name__ == '__main__':
+#     net = get_pose_net(18, {'hm': 80, 'wh': 2, 'reg': 2}, 64)
+#     print("----------------- Model summary -----------------")
+#     summary(net)
+#     print("-------------------------------------------------")
+#     print("\n")
+#     print("----------------- Output testing -----------------")
+#     x = torch.randn(1, 3, 512, 512)
+#     y = net(x)
+#     print(y[0])
+#     print("--------------------------------------------------")

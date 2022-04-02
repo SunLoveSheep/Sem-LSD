@@ -14,7 +14,7 @@ from utils.debugger import Debugger
 from collections import OrderedDict
 import os
 import sys
-sys.path.append("/workspace/tangyang.sy/pytorch_CV")
+sys.path.append("/workspace/tangyang.sy/pytorch_SemLSD_github")
 from general_utils.utils import parseLineCenterNet, parseBBoxesCornerNetLite, \
     parseLineDict, parseBBoxDict, \
     writeXml, writeXml_line
